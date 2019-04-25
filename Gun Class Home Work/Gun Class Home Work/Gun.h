@@ -30,6 +30,7 @@ Reset:
 	cout << "2. Reload" << endl;
 	cout << "3. Cooling the gun" << endl;
 	cout << "4. Gun Info" << endl;
+	cout << "5. Exit " << endl;
 	cout << "------------------------------\n" << endl;
 
 MenuReset:
@@ -67,6 +68,12 @@ MenuReset:
 		Test.Info();
 
 		goto Reset;
+
+		break;
+
+	case 5:
+
+		cout << "\nYou are fire!\n" << endl;
 
 		break;
 
