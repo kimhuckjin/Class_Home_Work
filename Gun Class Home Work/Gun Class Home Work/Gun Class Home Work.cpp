@@ -1,8 +1,8 @@
-﻿#include "pch.h"
+#include "pch.h" //If this cpp got error please use "//"
 #include "Gun.h"
 
 #include <iostream>
-#include <vld.h>
+//#include <vld.h> //If you can use "vld.h" erase "//"
 using namespace std;
 
 int main() {
