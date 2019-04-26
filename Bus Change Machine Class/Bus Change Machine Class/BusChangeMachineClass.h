@@ -179,11 +179,11 @@ public:
 
 private:
 
-	int adult;
+	float adult;
 
-	int teenager;
+	float teenager;
 
-	int child;
+	float child;
 
 	int money;
 
@@ -191,7 +191,7 @@ private:
 
 	int age;
 
-	int discount = 0;
+	float discount = 0;
 
 	bool moneycheck;
 
